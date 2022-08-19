@@ -15,7 +15,7 @@ codegen-units = 1
 # Tell `rustc` to optimize for small code size.
 opt-level = "s"
 lto = true
-debug = false
+debug = true
 panic = "abort"
 overflow-checks = true
 

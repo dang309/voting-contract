@@ -83,7 +83,6 @@ impl VotingContract {
         let account_id = env::predecessor_account_id();
         let account_stake = if is_vote {
             let stake = env::validator_stake(&account_id);
-            assert!(stake > 0, "{} is not a validator", account_id);
             stake
         } else {
             0
