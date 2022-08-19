@@ -1,6 +1,3 @@
-# Voting Contract
+# Phần đã thêm
 
-The purpose of this contract is solely for validators to vote on whether to unlock
-token transfer. Validators can call `vote` to vote for yes with the amount of stake they wish
-to put on the vote. If there are more than 2/3 of the stake at any given moment voting for yes, the voting is done.
-After the voting is finished, no one can further modify the contract.
+Method get_max_votes để lấy số votes lớn nhất, đã deploy, view và call với near-cli thành công.
